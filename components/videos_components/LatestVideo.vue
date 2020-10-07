@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="latest-video">
-      <div class="video-details"></div>
-
-      <div class="video-thumb"></div>
+      <div class="video-thumb">
+        <play-btn></play-btn>
+      </div>
     </div>
   </div>
 </template>

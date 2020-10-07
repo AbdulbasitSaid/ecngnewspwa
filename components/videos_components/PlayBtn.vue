@@ -1,6 +1,8 @@
 
 <template>
-  <div></div>
+  <div>
+    <div class="play-btn"></div>
+  </div>
 </template>
 
 <script>

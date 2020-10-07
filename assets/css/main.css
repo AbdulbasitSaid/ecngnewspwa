@@ -8,6 +8,17 @@ body {
   background-color: #f9f9f9;
 }
 
+body .btn {
+  padding: 4px 10px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+}
+
+body .relative {
+  position: relative;
+}
+
 body .navbar {
   padding: 20px 10px;
   display: flex;
@@ -75,6 +86,42 @@ body .latest-video {
   position: relative;
 }
 
+body .latest-video .news-info {
+  bottom: 0;
+  position: absolute;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+body .latest-video .news-info .btn {
+  background-color: #e74c2b;
+}
+
+body .latest-video .right-btn,
+body .latest-video .left-btn {
+  position: absolute;
+  height: 3rem;
+  width: 2.8rem;
+  background-color: white;
+  bottom: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.8s;
+}
+
+body .latest-video .right-btn:hover,
+body .latest-video .left-btn:hover {
+  background-color: #e20024;
+  color: white;
+}
+
+body .latest-video .right-btn {
+  right: 0;
+}
+
 body .latest-video .play-btn {
   position: absolute;
   margin: 30px;
@@ -83,7 +130,7 @@ body .latest-video .play-btn {
 body .latest-video .video-thumb {
   height: 100%;
   width: 100%;
-  background-image: url("https://i.guim.co.uk/img/media/543ffb9125fa3e33fc393c6e3c3788d91cd3122f/0_187_3500_2100/master/3500.jpg?width=645&quality=85&auto=format&fit=max&s=2ef430a8cdbf5d1001a0431beb8b6afb");
+  background-image: url("https://images.unsplash.com/photo-1511882150382-421056c89033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <Navbar></Navbar>
+  <div class="main">
+    <Navbar />
+    <News />
   </div>
 </template>
 

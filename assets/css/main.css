@@ -1,13 +1,44 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   box-sizing: content-box;
 }
 
 .navbar {
-  height: 200px;
-  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: flex-end;
   background-color: #f9f9f9;
+}
+
+.navbar .search-btn,
+.navbar .menu-btn {
+  margin: 10px;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.navbar .search-input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  background-color: #f9f9f9;
+  padding: 10px;
+  width: 60vw;
+  flex: 12;
+}
+
+.navbar .search-input:focus {
+  border-color: #e20024;
+}
+
+.main {
+  max-width: 100vw;
+}
+
+.news-container {
+  background-color: white;
+  min-height: 100vh;
 }
 
 body {

@@ -44,6 +44,8 @@ body .news-container {
   background-color: white;
   min-height: 100vh;
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   padding: 10px;
   gap: 10px;
 }
@@ -51,5 +53,5 @@ body .news-container {
 body .latest-video,
 body .news-card {
   background-color: #e20024;
-  min-height: 60vh;
+  min-height: 70vh;
 }

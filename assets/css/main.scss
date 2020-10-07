@@ -55,12 +55,14 @@ body {
     background-color: white;
     min-height: 100vh;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     padding: 10px;
     gap: 10px;
   }
   .latest-video,
   .news-card {
     background-color: $primary-color;
-    min-height: 60vh;
+    min-height: 70vh;
   }
 }

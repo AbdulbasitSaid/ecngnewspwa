@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="news-container">
-      <!-- <LatestVideo /> -->
+      <LatestVideo />
+      <NewsCard />
       <NewsCard />
     </div>
   </div>

@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div class="news-container">
-      <!-- <LatestVideo /> -->
-      <NewsCard />
-    </div>
+    <div class="latest-video"></div>
   </div>
 </template>
 

@@ -1,7 +1,9 @@
 
 <template>
   <div>
-    <div class="play-btn"></div>
+    <div class="play-btn">
+      <fa icon="play" class="play" />
+    </div>
   </div>
 </template>
 

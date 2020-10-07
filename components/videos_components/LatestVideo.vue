@@ -1,9 +1,8 @@
 <template>
   <div>
     <div class="latest-video">
-      <div class="video-thumb">
-        <play-btn></play-btn>
-      </div>
+      <div class="video-thumb"></div>
+      <play-btn></play-btn>
     </div>
   </div>
 </template>

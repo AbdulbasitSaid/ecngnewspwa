@@ -61,7 +61,10 @@ body .play-btn {
   height: 3.5rem;
   width: 3.5rem;
   border-radius: 100%;
-  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 body .latest-video {
@@ -69,6 +72,12 @@ body .latest-video {
   height: 80vh;
   width: 100%;
   overflow: hidden;
+  position: relative;
+}
+
+body .latest-video .play-btn {
+  position: absolute;
+  margin: 30px;
 }
 
 body .latest-video .video-thumb {
@@ -81,11 +90,11 @@ body .latest-video .video-thumb {
   display: flex;
   flex-flow: column;
   transition: all 1s ease;
-  position: relative;
+  position: absolute;
 }
 
 body .latest-video .video-thumb:hover {
-  animation: zoom 1s ease forwards;
+  transform: scale(1.1);
 }
 
 body .img-thumb {
@@ -95,8 +104,7 @@ body .img-thumb {
 
 @keyframes zoom {
   from {
-    background-size: cover;
-    background-size: 150%;
+    background-size: 100%;
   }
   to {
     background-size: 150%;

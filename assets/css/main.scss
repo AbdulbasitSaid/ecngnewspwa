@@ -70,7 +70,12 @@ body {
     height: 3.5rem;
     width: 3.5rem;
     border-radius: 100%;
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .play {
+    }
   }
   .latest-video {
     background-color: rgba($color: $primary-color, $alpha: 0.7);
@@ -78,7 +83,11 @@ body {
     height: 80vh;
     width: 100%;
     overflow: hidden;
-
+    position: relative;
+    .play-btn {
+      position: absolute;
+      margin: 30px;
+    }
     .video-thumb {
       height: 100%;
       width: 100%;
@@ -90,10 +99,9 @@ body {
       display: flex;
       flex-flow: column;
       transition: all 1s ease;
-      position: relative;
+      position: absolute;
       &:hover {
-        // background-size: 120%;
-        animation: zoom 1s ease forwards;
+        transform: scale(1.1);
       }
     }
   }
@@ -105,8 +113,7 @@ body {
 //animations
 @keyframes zoom {
   from {
-    background-size: cover;
-    background-size: 150%;
+    background-size: 100%;
   }
   to {
     background-size: 150%;

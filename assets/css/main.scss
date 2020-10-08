@@ -20,12 +20,20 @@ $screen-xxl: 1366px;
 $screen-xxxl: 1600px;
 
 //helper class
-
+.flex-column {
+  flex-direction: column;
+}
+.flex-column-center {
+  justify-content: center;
+}
 .hidden-overflow {
   overflow: hidden;
 }
 .relative {
   position: relative;
+}
+.absolute {
+  position: absolute;
 }
 .btn {
   padding: 4px 10px;
@@ -44,8 +52,10 @@ $screen-xxxl: 1600px;
   position: absolute;
   bottom: 0;
 }
-
 // end align items
+.circle {
+  border-radius: 100%;
+}
 // end of helper class
 body {
   background-color: $body-color;
@@ -100,6 +110,9 @@ body {
     max-width: 100vw;
   }
   .news-card {
+    .btn {
+      background-color: #4f4dbf;
+    }
     .thumb {
       background-image: url("https://images.unsplash.com/photo-1602079041437-c339cb243dbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     }
@@ -123,16 +136,11 @@ body {
     background-color: white;
     height: 3.2rem;
     width: 3.2rem;
-    border-radius: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
     align-items: center;
   }
   .news-info {
     margin: 2rem;
-    display: flex;
-    flex-direction: column;
     gap: 20px;
   }
 
@@ -185,14 +193,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     transition: all 1s ease;
-    position: absolute;
     &:hover {
       transform: scale(1.1);
     }
-  }
-  .img-thumb {
-    width: 100%;
-    height: 100%;
   }
 }
 //animations

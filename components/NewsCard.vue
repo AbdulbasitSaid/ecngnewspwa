@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="news-card hidden-overflow">
-      <div class="thumb"></div>
+      <div class="thumb absolute"></div>
       <news-info class="align-bottom"></news-info>
     </div>
   </div>

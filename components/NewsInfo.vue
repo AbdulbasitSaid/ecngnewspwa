@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="news-info">
+    <div class="news-info flex flex-column">
       <video-cat-btn></video-cat-btn>
       <div class="news-tittle">
         <p>

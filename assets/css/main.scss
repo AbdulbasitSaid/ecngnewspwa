@@ -21,6 +21,9 @@ $screen-xxxl: 1600px;
 
 body {
   background-color: $body-color;
+  .hidden-overflow {
+    overflow: hidden;
+  }
   .news-tittle {
     p {
       color: white;
@@ -81,6 +84,18 @@ body {
     // overflow-x: hidden;
     max-width: 100vw;
   }
+  .news-card {
+    .thumb {
+      background-image: url("https://images.unsplash.com/photo-1602079041437-c339cb243dbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    }
+    .news-info {
+      position: absolute;
+      bottom: 0;
+      .btn {
+        background-color: violet;
+      }
+    }
+  }
   .news-container {
     background-color: white;
     min-height: 100vh;
@@ -94,6 +109,7 @@ body {
   .news-card {
     background-color: $primary-color;
     min-height: 70vh;
+    position: relative;
   }
   .play-btn {
     background-color: white;
@@ -111,8 +127,12 @@ body {
     flex-direction: column;
     gap: 20px;
   }
+
   .latest-video {
     background-color: rgba($color: $primary-color, $alpha: 0.7);
+    .thumb {
+      background-image: url("https://images.unsplash.com/photo-1511882150382-421056c89033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    }
     .news-info {
       bottom: 0;
       position: absolute;
@@ -149,21 +169,17 @@ body {
       position: absolute;
       margin: 30px;
     }
-    .video-thumb {
-      height: 100%;
-      width: 100%;
-      background-image: url("https://images.unsplash.com/photo-1511882150382-421056c89033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-      background-size: cover;
-
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      flex-flow: column;
-      transition: all 1s ease;
-      position: absolute;
-      &:hover {
-        transform: scale(1.1);
-      }
+  }
+  .thumb {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1s ease;
+    position: absolute;
+    &:hover {
+      transform: scale(1.1);
     }
   }
   .img-thumb {

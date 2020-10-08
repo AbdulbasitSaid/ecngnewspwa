@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="news-card">
+    <div class="news-card hidden-overflow">
+      <div class="thumb"></div>
       <news-info></news-info>
     </div>
   </div>
@@ -11,7 +12,4 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.news-card {
-  padding: 2rem;
-}
 </style>

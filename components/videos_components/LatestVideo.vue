@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="latest-video">
-      <div class="video-thumb"></div>
+      <div class="thumb"></div>
       <play-btn></play-btn>
       <div class="right-btn">
         <fa icon="angle-right"></fa>

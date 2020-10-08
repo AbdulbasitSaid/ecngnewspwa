@@ -19,11 +19,37 @@ $screen-xl: 1200px;
 $screen-xxl: 1366px;
 $screen-xxxl: 1600px;
 
+//helper class
+
+.hidden-overflow {
+  overflow: hidden;
+}
+.relative {
+  position: relative;
+}
+.btn {
+  padding: 4px 10px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+}
+.flex {
+  display: flex;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+//align items
+.align-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+// end align items
+// end of helper class
 body {
   background-color: $body-color;
-  .hidden-overflow {
-    overflow: hidden;
-  }
+
   .news-tittle {
     p {
       color: white;
@@ -46,19 +72,9 @@ body {
       transition: all ease 0.5s;
     }
   }
-  .btn {
-    padding: 4px 10px;
-    color: white;
-    text-transform: uppercase;
-    border: none;
-  }
-  .relative {
-    position: relative;
-  }
+
   .navbar {
     padding: 20px 10px;
-    display: flex;
-    justify-content: flex-end;
     background-color: $body-color;
     .search-btn,
     .menu-btn {
@@ -81,19 +97,11 @@ body {
     }
   }
   .main {
-    // overflow-x: hidden;
     max-width: 100vw;
   }
   .news-card {
     .thumb {
       background-image: url("https://images.unsplash.com/photo-1602079041437-c339cb243dbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-    }
-    .news-info {
-      position: absolute;
-      bottom: 0;
-      .btn {
-        background-color: violet;
-      }
     }
   }
   .news-container {

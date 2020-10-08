@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="navbar">
+    <div class="navbar flex flex-end">
       <form>
         <input type="text" class="search-input" placeholder="Search news..." />
       </form>

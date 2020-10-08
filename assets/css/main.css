@@ -8,6 +8,29 @@ body {
   background-color: #f9f9f9;
 }
 
+body .news-tittle p {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+body .news-meta {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: small;
+}
+
+body .news-meta span:hover {
+  color: #e20024;
+  transition: all ease 0.5s;
+}
+
 body .btn {
   padding: 4px 10px;
   color: white;
@@ -69,13 +92,20 @@ body .news-card {
 
 body .play-btn {
   background-color: white;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 3.2rem;
+  width: 3.2rem;
   border-radius: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+body .news-info {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 body .latest-video {
@@ -89,9 +119,6 @@ body .latest-video {
 body .latest-video .news-info {
   bottom: 0;
   position: absolute;
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
 }
 
 body .latest-video .news-info .btn {

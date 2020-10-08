@@ -21,6 +21,28 @@ $screen-xxxl: 1600px;
 
 body {
   background-color: $body-color;
+  .news-tittle {
+    p {
+      color: white;
+      font-size: medium;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+    }
+  }
+  .news-meta {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: small;
+    span:hover {
+      color: $primary-color;
+      transition: all ease 0.5s;
+    }
+  }
   .btn {
     padding: 4px 10px;
     color: white;
@@ -75,22 +97,25 @@ body {
   }
   .play-btn {
     background-color: white;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3.2rem;
+    width: 3.2rem;
     border-radius: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  .news-info {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   .latest-video {
     background-color: rgba($color: $primary-color, $alpha: 0.7);
     .news-info {
       bottom: 0;
       position: absolute;
-      margin: 2rem;
-      display: flex;
-      flex-direction: column;
       .btn {
         background-color: #e74c2b;
       }

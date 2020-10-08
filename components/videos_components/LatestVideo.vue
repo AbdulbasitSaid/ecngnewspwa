@@ -9,9 +9,7 @@
       <div class="left-btn">
         <fa icon="angle-left"></fa>
       </div>
-      <div class="news-info">
-        <video-cat-btn></video-cat-btn>
-      </div>
+      <news-info></news-info>
     </div>
   </div>
 </template>

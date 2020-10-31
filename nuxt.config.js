@@ -14,7 +14,15 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: [
+   "@assets/css/style.css", 
+   "@assets/css/vendor/bootstrap.min.css", 
+   "@assets/css/iconfont.css",
+   "@assets/css/vendor/bootstrap.min.css",
+   "@assets/css/vendor/owl.carousel.min.css",
+   "@assets/css/vendor/magnific-popup.css",
+   "@assets/css/vendor/animate.css"
+  ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],

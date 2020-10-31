@@ -42,6 +42,8 @@ export default {
     // adding firebase
   ],
   firebase: {
+    memoryOnly: false,
+    enablePersistance: true,
     config: {
       apiKey: process.env.FIREBASE_API_KEY,
       authDomain: process.env.FIREBASE_AUTH_DOMAIN,

@@ -103,7 +103,7 @@
               <div class="brand-logo-container">
                 <nuxt-link to="index.html">
                   <img
-                    src="/demo/template/papr/assets/images/icon.png"
+                    src="~/assets/images/icon.png"
                     alt=""
                     class="brand-logo"
                   />

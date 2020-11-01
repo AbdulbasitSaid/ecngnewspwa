@@ -113,96 +113,12 @@
 
               <div class="main-nav-wrapper">
                 <ul class="main-navigation list-inline" id="main-menu">
-                  <!-- <li class="has-dropdown is-active">
-                    <nuxt-link to="#">Home</nuxt-link>
-                    <ul class="submenu">
-                      <li><nuxt-link to="index.html">Home One</nuxt-link></li>
-                      <li><nuxt-link to="home-2.html">Home Two</nuxt-link></li>
-                      <li><nuxt-link to="home-3.html">Home Three</nuxt-link></li>
-                      <li><nuxt-link to="home-4.html">Home Four</nuxt-link></li>
-                      <li class="is-active">
-                        <nuxt-link to="home-5.html">Home Five</nuxt-link>
-                      </li>
-                    </ul>
-                  </li> -->
-                  <!-- <li class="has-dropdown">
-                    <nuxt-link to="#">Posts</nuxt-link>
-                    <ul class="submenu"> -->
-                  <!-- <li class="has-dropdown">
-                        <nuxt-link to="#">Post Layout</nuxt-link>
-                        <ul class="submenu">
-                          <li>
-                            <nuxt-link to="post-layout-one.html">Post Layout 1</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="post-layout-two.html">Post Layout 2</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="post-layout-three.html">Post Layout 3</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="post-layout-four.html">Post Layout 4</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="post-layout-five.html">Post Layout 5</nuxt-link>
-                          </li>
-                        </ul> -->
-                  <!-- End of .submenu -->
-                  <!-- </li> -->
-                  <!-- <li class="has-dropdown">
-                        <nuxt-link to="#">Post Format</nuxt-link>
-                        <ul class="submenu">
-                          <li>
-                            <nuxt-link to="post-format-standard.html"
-                              >Post Format Standard</a
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="post-format-video.html"
-                              >Post Format Video</a
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="post-format-audio.html"
-                              >Post Format Audio</a
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="post-format-gallery.html"
-                              >Post Format Gallery</a
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="post-format-quote.html"
-                              >Post Format Quote</a
-                            >
-                          </li>
-                          <li>
-                            <nuxt-link to="post-format-text-only.html"
-                              >Post Format Text Only</a
-                            >
-                          </li>
-                        </ul>
-                      </li> -->
-                  <!-- </ul> -->
-                  <!-- End of .submenu -->
-                  <!-- </li> -->
+
                   <li><nuxt-link to="business.html">Business</nuxt-link></li>
                   <li><nuxt-link to="lifestyle.html">Lifestyle</nuxt-link></li>
                   <li><nuxt-link to="technology.html">Technology</nuxt-link></li>
                   <li><nuxt-link to="sports.html">Sports</nuxt-link></li>
-                  <!-- <li class="has-dropdown">
-                    <nuxt-link to="#">Pages</nuxt-link>
-                    <ul class="submenu">
-                      <li><nuxt-link to="author.html">Author</nuxt-link></li>
-                      <li><nuxt-link to="error-404.html">404 Error</nuxt-link></li>
-                      <li><nuxt-link to="under-construction.html">Coming Soon</nuxt-link></li>
-                      <li><nuxt-link to="about-us.html">About Us</nuxt-link></li>
-                      <li><nuxt-link to="team.html">Team</nuxt-link></li>
-                      <li><nuxt-link to="contact.html">Contact Us</nuxt-link></li>
-                    </ul>
-                 End of .submenu 
-                  </li> -->
+      
                 </ul>
                 <!-- End of .main-navigation -->
               </div>

@@ -18,7 +18,6 @@ export default {
    "@assets/css/style.css", 
    "@assets/css/vendor/bootstrap.min.css", 
    "@assets/css/iconfont.css",
-   "@assets/css/vendor/bootstrap.min.css",
    "@assets/css/vendor/owl.carousel.min.css",
    "@assets/css/vendor/magnific-popup.css",
    "@assets/css/vendor/animate.css"
@@ -31,14 +30,8 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: ["@nuxtjs/fontawesome"],
-  fontawesome: {
-    component: "fa",
-    icons: {
-      solid: true,
-      brands: true
-    }
-  },
+  buildModules: [],
+  
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
